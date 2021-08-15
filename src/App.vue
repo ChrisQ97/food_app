@@ -1,26 +1,39 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <Greeting/>
+    <Search/>
+    <Barmenu/>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Barmenu from './components/Barmenu.vue';
+import Greeting from './components/Greeting.vue';
+import Search from './components/Search.vue';
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Barmenu,
+    Greeting,
+    Search,
   }
 }
 </script>
 
 <style lang="less">
+
 #app {
+
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  
 }
+* {
+  font-family: 'Raleway', sans-serif;
+  margin: 0px;
+  padding: 0px;
+ }
 </style>
