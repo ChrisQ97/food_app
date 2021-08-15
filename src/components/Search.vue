@@ -16,15 +16,16 @@
 	display: flex;
 	position: relative;
 	align-item: center;
+	margin: 15px;
 	input {
-		width: 75%;
+		width: 100%;
 		padding: 20px;
 		background-color: #faf8f8;
 		border: 0;
 		color: black;
 		wight: bold;
 		outline: none;
-		border-radius: 10px;
+		border-radius: 40px;
 		padding-left: 40px;
 		font-size: 20px;
 	}

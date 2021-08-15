@@ -10,7 +10,7 @@
 </script>
 <style lang="less">
 .title {
-	padding: 50px;
+	padding: 20px;
 	font-weight: 100;
 	font-size: 30px;
 }

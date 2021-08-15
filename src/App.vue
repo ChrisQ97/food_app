@@ -2,6 +2,8 @@
   <div>
     <Greeting/>
     <Search/>
+    <Featured/>
+    <Scroll/>
     <Barmenu/>
   </div>
 </template>
@@ -10,12 +12,16 @@
 import Barmenu from './components/Barmenu.vue';
 import Greeting from './components/Greeting.vue';
 import Search from './components/Search.vue';
+import Featured from './components/Featured.vue';
+import Scroll from './components/Scroll.vue'
 export default {
   name: 'App',
   components: {
     Barmenu,
     Greeting,
     Search,
+    Featured,
+    Scroll,
   }
 }
 </script>
