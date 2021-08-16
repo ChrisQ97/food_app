@@ -52,7 +52,7 @@ export default {
 <style languaje="less" scoped>	
 .wrapper {
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 	max-height: 150px;
 	padding-bottom: 50px;
 	display: flex;

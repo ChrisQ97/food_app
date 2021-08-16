@@ -27,10 +27,10 @@
 	justify-content: center;
 }
 h1 {
-	font-size: 8vw;
+	font-size: 6vw;
 }
 p {
-	font-size: 3vw
+	font-size: 4vw
 }
 .image-menu-featured {
   max-width: 100%;

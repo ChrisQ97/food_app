@@ -4,6 +4,7 @@
     <Search/>
     <Featured/>
     <Scroll/>
+    <Top/>
     <Barmenu/>
   </div>
 </template>
@@ -13,7 +14,8 @@ import Barmenu from './components/Barmenu.vue';
 import Greeting from './components/Greeting.vue';
 import Search from './components/Search.vue';
 import Featured from './components/Featured.vue';
-import Scroll from './components/Scroll.vue'
+import Scroll from './components/Scroll.vue';
+import Top from './components/Top.vue';
 export default {
   name: 'App',
   components: {
@@ -22,6 +24,7 @@ export default {
     Search,
     Featured,
     Scroll,
+    Top,
   }
 }
 </script>
