@@ -2,16 +2,16 @@
   <div class="navbar-container">
     <div class="navbar-content">
       <a href="" >
-        <i class="bx bx-home-circle bx-sm" color="#ffffff"></i>
+        <i class="bx bx-home-circle bx-sm"></i>
       </a>
       <a href="/box">
-        <i class="bx bx-basket bx-sm" color="#ffffff"></i>
+        <i class="bx bx-basket bx-sm" ></i>
       </a>
       <a href="/favorites">
-        <i class="bx bx-heart-circle bx-sm" color="#ffffff"></i>
+        <i class="bx bx-heart-circle bx-sm" ></i>
       </a>
       <a href="/history">
-        <i class="bx bx-history bx-sm" color="#ffffff"></i>
+        <i class="bx bx-history bx-sm"></i>
       </a>
     </div> 
   </div>
@@ -22,7 +22,7 @@
 	}
 </script>
 
-<style lang="less">
+<style lang="less" scoped>
 
 .navbar-container {
   width: 100%;
